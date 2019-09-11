@@ -1,0 +1,44 @@
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.login-header, .register-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+.login-form input, .register-form input {
+    width: 85%;
+    margin: 10px auto;
+}
+
+.login-register-card {
+    border: 0.5px solid #dfdfdf;
+    border-radius: 5px;
+    width: inherit;
+}
+
+.login-actions, .register-actions {
+    width: 85%;
+    margin: 10px auto;
+}
+
+.register-link {
+    width: 85%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.register-link a {
+    color: blue;
+    cursor: pointer;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
